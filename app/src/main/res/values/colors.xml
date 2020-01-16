@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFF</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#b78846</color>
+    <color name="blackgew">#0b141a</color>
+    <color name="blackflat">#141414</color>
+
+    <color name="theme_primary">#2196F3</color>
+    <color name="theme_primary_text_inverted">#ffffff</color>
+    <color name="theme_secondary_text_inverted">#8affffff</color>
+
+    <!-- Chang color login -->
+    <color name="material_login_login_color">#FFF</color>
+    <color name="material_login_register_color">#b78846</color>
+    <color name="material_login_login_error_color">#ffbebe</color>
+    <color name="material_login_register_error_color">#600002</color>
+</resources>

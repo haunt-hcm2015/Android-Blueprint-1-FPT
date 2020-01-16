@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SakuraNovel</string>
+    <string name="forgot_pasword"><u>Forgot password</u>.</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_forgot_password"><u>Forgot password</u></string>
+    <string-array name="query_suggestions">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>SCALA</item>
+        <item>Ruby</item>
+        <item>JavaScript</item>
+    </string-array>
+
+    <string name="icon_user">&#xf007;</string>
+</resources>

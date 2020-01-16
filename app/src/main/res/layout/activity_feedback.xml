@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_feedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.android.teamnovelvn.sakuranovel.Activity.FeedbackActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:elevation="4dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Please send us your feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTT1"
+        android:textColor="@color/yellow"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:text="Tell us about problems, or suggest improvements."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTT1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtTT2"
+        android:textColor="@color/yellow"
+        android:layout_marginLeft="20dp"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="100dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textColorHint="@color/yellow"
+        android:textColor="@color/blackgew"
+        android:hint="Message to the developers"
+        android:id="@+id/edtNoiDungFeedback"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtTT2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="SEND"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNoiDungFeedback"
+        android:layout_centerInParent="true"
+        android:textColor="@color/blackgew"
+        android:background="@color/yellow"
+        android:id="@+id/btnSend" />
+
+
+</RelativeLayout>

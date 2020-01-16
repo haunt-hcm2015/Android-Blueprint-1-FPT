@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1040570286070",
+    "firebase_url": "https://sakura-novel.firebaseio.com",
+    "project_id": "sakura-novel",
+    "storage_bucket": "sakura-novel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040570286070:android:442a6d65f1b0b050",
+        "android_client_info": {
+          "package_name": "com.android.teamnovelvn.sakuranovel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040570286070-9ophucfi5u6bh7b9orm47r12u1vcc5f3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.teamnovelvn.sakuranovel",
+            "certificate_hash": "1E49305EF2CFFE7AA6B4535537A75D13FFE37FF7"
+          }
+        },
+        {
+          "client_id": "1040570286070-j84qhoofmia64bqpfhsdc1f81o5fhp5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOn0E7xMiWXS5f5tWuXaQXSoh7W7XveMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040570286070-j84qhoofmia64bqpfhsdc1f81o5fhp5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040570286070:android:9d055b17ad3a1c4f",
+        "android_client_info": {
+          "package_name": "com.android.teamnovelvn.trying"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040570286070-upinc27eu5ql6optgrpntbljt2kjcrr9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.teamnovelvn.trying",
+            "certificate_hash": "1E49305EF2CFFE7AA6B4535537A75D13FFE37FF7"
+          }
+        },
+        {
+          "client_id": "1040570286070-j84qhoofmia64bqpfhsdc1f81o5fhp5a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOn0E7xMiWXS5f5tWuXaQXSoh7W7XveMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040570286070-j84qhoofmia64bqpfhsdc1f81o5fhp5a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

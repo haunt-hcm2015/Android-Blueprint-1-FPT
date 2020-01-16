@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login_lib"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackgew"
+    tools:context="com.android.teamnovelvn.sakuranovel.Activity.LoginLibActivity">
+
+    <TextView
+        android:text="JOIN US"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_title" />
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <shem.com.materiallogin.MaterialLoginView
+            android:id="@+id/login"
+            app:loginView="@layout/custom_login_view"
+            app:registerView="@layout/custom_register_view"
+            app:registerIcon="@drawable/ic_person_add_white_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+    <TextView
+        android:id="@+id/textview_forgot_password"
+        android:textStyle="bold|italic"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:text="@string/title_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"/>
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/button_google"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--<mehdi.sakout.fancybuttons.FancyButton-->
+        <!--android:id="@+id/btn_Signin_Google"-->
+        <!--android:layout_width="255dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="180dp"-->
+        <!--android:padding="5dp"-->
+        <!--fancy:fb_radius="10dp"-->
+        <!--fancy:fb_borderColor="#FFF"-->
+        <!--fancy:fb_borderWidth="2dp"-->
+        <!--fancy:fb_defaultColor="#0b141a"-->
+        <!--fancy:fb_focusColor="#b78846"-->
+        <!--fancy:fb_iconResource="@drawable/gplus"-->
+        <!--fancy:fb_text="Sign in with Google"-->
+        <!--fancy:fb_textColor="#FFF"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+    </com.google.android.gms.common.SignInButton>
+
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_truyen_novel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.android.teamnovelvn.sakuranovel.Activity.TruyenNovel">
+    <!--<ProgressBar-->
+        <!--style="?android:attr/progressBarStyleLarge"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:id="@+id/progressBar3" />-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1.25"
+        android:id="@+id/scrollView2">
+        <LinearLayout
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+         <me.grantland.widget.AutofitTextView
+             android:id="@+id/LightNovel"
+             android:text="Loading..."
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/boom_truyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        app:boom_inActionBar="false"
+        app:boom_button_color="@color/yellow"
+        app:boom_button_pressed_color="@color/yellow"
+        android:layout_weight="0.01" />
+    <LinearLayout
+        android:id="@+id/hidetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtimgBtn"
+            android:text="FontSize"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Quay về tập trước"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtVeChapTruoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Thông tin Novel"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtQuayVeTTNovel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"/>
+        <TextView
+            android:text="Tập kế tiếp"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtToiChapSau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>

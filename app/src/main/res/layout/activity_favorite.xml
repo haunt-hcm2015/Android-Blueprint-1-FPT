@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_favorite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/blackgew"
+    tools:context="com.android.teamnovelvn.sakuranovel.Activity.FavoriteActivity">
+
+    <TextView
+        android:id="@+id/txtvFavorites"
+        android:text="My Favorites"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:background="@color/blackgew"
+        android:layout_below="@id/txtvFavorites">
+
+        <GridView
+            android:id="@+id/gridViewFavorites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"></GridView>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
